@@ -18,11 +18,11 @@
 
 ## Projeto
 
-<p>Em breve mais informações.</p>
+<p>Em breve mais informações...</p>
 
 ## Rodar projeto
 
-<p>Em breve mais informações.</p>
+<p>Em breve mais informações...</p>
 
 ### Tecnologias utilizadas
 
