@@ -14,7 +14,7 @@
 
 ## Sobre
 
-**React Native Insiders 4.0** trata-se de um projeto realizado durante um evento do Sujeito Programador - React Native Insiders 4.0 🚀🔥
+**React Native Insiders 4.0!!** trata-se de um projeto realizado durante um evento do Sujeito Programador - React Native Insiders 4.0 🚀🔥
 
 ## Projeto
 
