@@ -23,6 +23,7 @@
 ## Rodar projeto
 
 <p>Em breve mais informações...</p>
+:)
 
 ### Tecnologias utilizadas
 
