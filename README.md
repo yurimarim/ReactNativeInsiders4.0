@@ -18,7 +18,7 @@
 
 ## Projeto
 
-<p>Em breve mais informações...</p>
+<p>React Prime - Em breve mais informações...</p>
 
 ## Rodar projeto
 
