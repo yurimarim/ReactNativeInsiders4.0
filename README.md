@@ -24,7 +24,7 @@
 
 <p>Em breve mais informações...</p>
 :)
-:)
+:)s
 
 ### Tecnologias utilizadas
 
