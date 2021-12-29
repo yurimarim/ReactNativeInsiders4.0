@@ -30,6 +30,7 @@
 
 - React Native
 - Expo
+- Axios
 
 ## Licença e Autor
 
