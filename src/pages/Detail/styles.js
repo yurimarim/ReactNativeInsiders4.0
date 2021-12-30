@@ -47,3 +47,25 @@ export const Title = styled.Text`
   padding: 8px 14px;
   margin-top: 8px;
 `
+export const ContentArea = styled.View`
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+`
+export const Rate = styled.Text`
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+`
+export const ListGenres = styled.FlatList`
+  padding-left: 14px;
+  margin: 8px 0;
+  max-height: 35px;
+  min-height: 35px;
+`
+export const Description = styled.Text`
+  padding: 0 14px 30px 14px;
+  color: #ffffff;
+  line-height: 20px;
+`
