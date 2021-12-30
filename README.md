@@ -31,6 +31,9 @@
 - React Native
 - Expo
 - Axios
+- React Native Navigate
+- React Native Stars
+- React Native Web View
 
 ## Licença e Autor
 
