@@ -34,6 +34,7 @@
 - React Native Navigate
 - React Native Stars
 - React Native Web View
+- React Router Dom
 
 ## Licença e Autor
 
