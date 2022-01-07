@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "rni-reactprime-4",
+    "name": "React Prime",
     "slug": "rni-reactprime-4",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,7 +8,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#121314"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,16 +17,12 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.devyuri.reactprime",
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      "package": "com.devyuri.reactprime",
+      "versionCode": 1
     }
   }
 }
