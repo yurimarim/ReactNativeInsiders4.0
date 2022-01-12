@@ -35,7 +35,7 @@
 - React Native Stars
 - React Native Web View
 - React Router Dom
-- Assets...
+- Assets {Icon/Splash}
 
 ## Licença e Autor
 
