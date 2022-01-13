@@ -20,7 +20,8 @@
 
 <p>
 React Prime - projeto de estudo com intuito de consumir dados de uma API relacionada a filmes.No aplicativo, consumimos a API que retorna os filmes mais populares, os que estão em alta e ainda podemos montar uma lista de filmes que são armazenas utilizando o AsyncStorage. Tudo com uma interação bem interativa, baseado no serviço Amazon Prime.
-<img src="./.github/allscreens.png" alt="screenshots" width="850"/>
+  <br>
+  <img src="./.github/allscreens.png" alt="screenshots" width="950"/>
 </p>
 
 ## Rodar projeto
