@@ -12,16 +12,14 @@ import {
   ListGenres,
   Description
 } from './styles'
-
+import { Genres } from '../../components/Genres'
+import { ModalLink } from '../../components/ModalLink'
 import { Feather, Ionicons } from '@expo/vector-icons'
-
 import { useNavigation, useRoute } from '@react-navigation/native'
+import { saveMovie, hasMovie, deleteMovie } from '../../utils/storage'
 
 import api, { key } from '../../services/api'
 import Stars from 'react-native-stars'
-
-import { Genres } from '../../components/Genres'
-import { ModalLink } from '../../components/ModalLink'
 
 export function Detail() {
   const navigation = useNavigation()
@@ -29,6 +27,7 @@ export function Detail() {
 
   const [movie, setMovie] = useState({})
   const [openLink, setOpenLink] = useState(false)
+  const [favoritedMovie, setFavoritedMovie] = useState(false)
 
   useEffect(() => {
     let isActive = true
@@ -47,6 +46,9 @@ export function Detail() {
 
       if (isActive) {
         setMovie(response.data)
+
+        const isFavorite = await hasMovie(response.data)
+        setFavoritedMovie(isFavorite)
       }
     }
 
@@ -59,14 +61,30 @@ export function Detail() {
     }
   }, [])
 
+  async function favoriteMovie(movie) {
+    if (favoritedMovie) {
+      await deleteMovie(movie.id)
+      setFavoritedMovie(false)
+      alert('Filme removido da sua lista')
+    } else {
+      await saveMovie('@prime-react', movie)
+      alert('Filme salvo na sua lista.')
+      setFavoritedMovie(true)
+    }
+  }
+
   return (
     <Container>
       <Header>
         <HeaderButton activeOpacity={0.7} onPress={() => navigation.goBack()}>
           <Feather name="arrow-left" size={28} color="#FFF" />
         </HeaderButton>
-        <HeaderButton>
-          <Ionicons name="bookmark" size={28} color="#FFF" />
+        <HeaderButton onPress={() => favoriteMovie(movie)}>
+          {favoritedMovie ? (
+            <Ionicons name="bookmark" size={28} color="#FFF" />
+          ) : (
+            <Ionicons name="bookmark-outline" size={28} color="#FFF" />
+          )}
         </HeaderButton>
       </Header>
 
