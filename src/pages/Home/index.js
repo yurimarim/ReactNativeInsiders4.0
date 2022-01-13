@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { View, ScrollView, ActivityIndicator } from 'react-native'
+import { ScrollView, ActivityIndicator } from 'react-native'
 
 import { Feather } from '@expo/vector-icons'
 import {
@@ -13,8 +13,8 @@ import {
   SliderMovie
 } from './styles'
 
-import Header from '../../components/Header'
-import SliderItem from '../../components/SliderItem'
+import { Header } from '../../components/Header'
+import { SliderItem } from '../../components/SliderItem'
 
 import api, { key } from '../../services/api'
 import { getListMovies, randomBanner } from '../../utils/movie'
