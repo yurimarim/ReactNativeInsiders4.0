@@ -28,12 +28,15 @@ React Prime - projeto de estudo com intuito de consumir dados de uma API relacio
 
 <p>Para rodar o projeto, após realizar o clone do projeto:</p>
 <p>Baixar as dependências:</p>
+
 ```powershell
-  expo install
+expo install
 ```
+
 <p>Rodar o servidor:</p>
+
 ```powershell
-  expo start
+expo start
 ```
 
 ### Tecnologias utilizadas
