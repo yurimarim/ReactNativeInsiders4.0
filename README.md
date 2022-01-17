@@ -49,6 +49,7 @@ expo start
 - React Native Web View
 - React Router Dom
 - Async Storage
+- LottieFiles****
 - Assets {Icon/Splash}
 
 ## Licença e Autor
