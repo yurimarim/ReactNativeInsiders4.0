@@ -51,6 +51,7 @@ expo start
 - Async Storage
 - LottieFiles****
 - Assets {Icon/Splash}
+- Dotenv
 
 ## Licença e Autor
 
