@@ -39,6 +39,9 @@ expo install
 expo start
 ```
 
+<p>Gerar uma chave API na TMDB API e, inserir suas chaves no código.</p>
+
+
 ### Tecnologias utilizadas
 
 - React Native
@@ -52,6 +55,8 @@ expo start
 - LottieFiles****
 - Assets {Icon/Splash}
 - Dotenv
+- TMDB API
+
 
 ## Licença e Autor
 
