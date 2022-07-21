@@ -44,18 +44,18 @@ expo start
 
 ### Tecnologias utilizadas
 
-- React Native
-- Expo
-- Axios
-- React Native Navigate
-- React Native Stars
-- React Native Web View
-- React Router Dom
-- Async Storage
-- LottieFiles****
-- Assets {Icon/Splash}
-- Dotenv
-- TMDB API
+-   [ ] React Native
+-   [ ] Expo
+-   [ ] Axios
+-   [ ] React Native Navigate
+-   [ ] React Native Stars
+-   [ ] React Native Web View
+-   [ ] React Router Dom
+-   [ ] Async Storage
+-   [ ] LottieFiles****
+-   [ ] Assets {Icon/Splash}
+-   [ ] Dotenv
+-   [ ] TMDB API
 
 
 ## Licença e Autor
